@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form>
+    <div class="form-group">
+        <label>Linked In Profile</label>
+        <input type="url" class="form-control" id="exampleInputEmail1" placeholder="Enter URL">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<a href="https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=86r5ibq7rosr97&redirect_uri=https://localhost:44394//LinkedIn/LinkedINAuth&state=987654321&scope=r_liteprofile%20r_emailaddress%20w_member_social" class="btn btn-primary">Login with LinkedIN</a>
+<script>
+    $(document).ready(function () {
+        debugger;
+        alert("prayag");
+    });
+</script>
